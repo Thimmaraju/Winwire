@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test">
+  <test name="LoginTest">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.LoginPage.LoginTest"/>
+    </classes>
+  </test>
+   <test name="RegistrationTest">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.registration.RegistrationTest"/>
+    </classes>
+  </test>
+   <test name="VerifyLowestFirstPriceFilter">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.productDetailsPage.VerifyLowestFirstPriceFilter"/>
+    </classes>
+  </test>
+</suite> 

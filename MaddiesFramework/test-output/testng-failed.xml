@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [All Test]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.LoginPage.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testLoginToApplication"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Winwire.Maddies.TestScripts.LoginPage.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="RegistrationTest(failed)">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.registration.RegistrationTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="testRegistration"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Winwire.Maddies.TestScripts.registration.RegistrationTest -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+  <test name="VerifyLowestFirstPriceFilter(failed)">
+    <classes>
+      <class name="Winwire.Maddies.TestScripts.productDetailsPage.VerifyLowestFirstPriceFilter">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="verifyLowestFirstPriceListInProduct_deatilsPage"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Winwire.Maddies.TestScripts.productDetailsPage.VerifyLowestFirstPriceFilter -->
+    </classes>
+  </test> <!-- VerifyLowestFirstPriceFilter(failed) -->
+</suite> <!-- Failed suite [All Test] -->
