@@ -14,14 +14,14 @@ public class MaddiesLoginTest extends TestBase {
 private final Logger log = LoggerHelper.getLogger(LoginTest.class);
 	
 	@Test(description="Login test with valid credentials")
-	public void testLoginToApplication2(){
+	public void testLoginToApplication(){
 		getApplicationUrl(ObjectReader.reader.getUrl());
 		
 		MaddiesloginPage maddiesloginPage = new MaddiesloginPage(driver);
 		
-		maddiesloginPage.loginToApplication2(ObjectReader.reader.getUserName(), ObjectReader.reader.getPassword());
+		maddiesloginPage.loginToApplication(ObjectReader.reader.getUserName(), ObjectReader.reader.getPassword());
 		
-		boolean status = maddiesloginPage.verifySuccessLoginMsg2();
+		boolean status = maddiesloginPage.verifySuccessLoginMsg();
 		
 		AssertionHelper.updateTestStatus(status);
 

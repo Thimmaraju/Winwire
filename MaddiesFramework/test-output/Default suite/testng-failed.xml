@@ -5,11 +5,11 @@
     <classes>
       <class name="Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest">
         <methods>
+          <include name="testLoginToApplication"/>
           <include name="beforeTest"/>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
-          <include name="testLoginToApplication2"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest -->
