@@ -951,3 +951,85 @@
 2018-11-13 14:11:87 INFO  LoginPage:52 - entering password....123456
 2018-11-13 14:11:255 INFO  LoginPage:58 - clicking on submit button...
 2018-11-13 14:11:504 ERROR VerificationHelper:29 - element is not Displayed..
+2018-11-13 16:11:138 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 16:11:164 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 16:11:164 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 16:11:182 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 16:11:187 INFO  WaitHelper:143 - page is loaded
+2018-11-13 16:11:404 INFO  TestBase:70 - **************testLoginAStarted***************
+2018-11-13 16:11:418 INFO  TestBase:88 - **************testLoginAFinished***************
+2018-11-13 16:11:694 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 16:11:783 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 16:11:783 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 16:11:802 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 16:11:807 INFO  WaitHelper:143 - page is loaded
+2018-11-13 16:11:05 INFO  TestBase:70 - **************testLoginBStarted***************
+2018-11-13 16:11:795 INFO  TestBase:88 - **************testLoginBFinished***************
+2018-11-13 16:11:246 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 16:11:277 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 16:11:278 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 16:11:291 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 16:11:296 INFO  WaitHelper:143 - page is loaded
+2018-11-13 16:11:474 INFO  TestBase:70 - **************testLoginBStarted***************
+2018-11-13 16:11:490 INFO  TestBase:88 - **************testLoginBFinished***************
+2018-11-13 16:11:964 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 16:11:997 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 16:11:997 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 16:11:14 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 16:11:19 INFO  WaitHelper:143 - page is loaded
+2018-11-13 16:11:173 INFO  TestBase:70 - **************testLoginCStarted***************
+2018-11-13 16:11:532 INFO  TestBase:88 - **************testLoginCFinished***************
+2018-11-13 17:11:958 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 17:11:981 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 17:11:981 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 17:11:997 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 17:11:03 INFO  WaitHelper:143 - page is loaded
+2018-11-13 17:11:175 INFO  TestBase:70 - **************testLoginToApplicationStarted***************
+2018-11-13 17:11:731 INFO  TestBase:88 - **************testLoginToApplicationFinished***************
+2018-11-13 17:11:773 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 17:11:779 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 17:11:779 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 17:11:795 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 17:11:800 INFO  WaitHelper:143 - page is loaded
+2018-11-13 17:11:998 INFO  TestBase:70 - **************testLoginToApplicationStarted***************
+2018-11-13 17:11:894 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 17:11:65 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (f35326dae2612919fc1ef0bcbb0b1d6e)] -> xpath: //*[@id="btnSubmit"]] for :200 seconds
+2018-11-13 17:11:241 INFO  WaitHelper:156 - element is visible now
+2018-11-13 17:11:242 INFO  TestBase:162 - capturing ui navigation screen...
+2018-11-13 17:11:257 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 17:11:695 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 17:11:712 INFO  LoginPage:46 - entering email address....thimmaraju.g@winwire.com
+2018-11-13 17:11:193 INFO  LoginPage:52 - entering password....123456
+2018-11-13 17:11:306 INFO  LoginPage:58 - clicking on submit button...
+2018-11-13 18:11:514 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 18:11:518 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 18:11:519 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 18:11:529 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 18:11:532 INFO  WaitHelper:143 - page is loaded
+2018-11-13 18:11:704 INFO  TestBase:70 - **************testLoginToApplicationStarted***************
+2018-11-13 18:11:51 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 18:11:76 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (900211413b633e3c398a9a69a6695504)] -> xpath: //*[@id="btnSubmit"]] for :200 seconds
+2018-11-13 18:11:113 INFO  WaitHelper:156 - element is visible now
+2018-11-13 18:11:114 INFO  TestBase:162 - capturing ui navigation screen...
+2018-11-13 18:11:115 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 18:11:519 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 18:11:531 INFO  LoginPage:46 - entering email address....thimmaraju.g@winwire.com
+2018-11-13 18:11:842 INFO  LoginPage:52 - entering password....123456
+2018-11-13 18:11:946 INFO  LoginPage:58 - clicking on submit button...
+2018-11-13 18:11:277 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-13 18:11:281 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 18:11:281 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-13 18:11:293 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-13 18:11:296 INFO  WaitHelper:143 - page is loaded
+2018-11-13 18:11:523 INFO  TestBase:70 - **************testLoginToApplicationStarted***************
+2018-11-13 18:11:327 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-13 18:11:354 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (0c22e54bc523d5b4bd0236669a0f57ef)] -> xpath: //*[@id="btnSubmit"]] for :200 seconds
+2018-11-13 18:11:391 INFO  WaitHelper:156 - element is visible now
+2018-11-13 18:11:392 INFO  TestBase:162 - capturing ui navigation screen...
+2018-11-13 18:11:393 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 18:11:777 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-13 18:11:795 INFO  LoginPage:46 - entering email address....thimmaraju.g@winwire.com
+2018-11-13 18:11:103 INFO  LoginPage:52 - entering password....123456
+2018-11-13 18:11:213 INFO  LoginPage:58 - clicking on submit button...
+2018-11-13 18:11:36 INFO  VerificationHelper:24 - element is Displayed..Maddie’s Pet Forum
+2018-11-13 18:11:506 INFO  TestBase:88 - **************testLoginToApplicationFinished***************

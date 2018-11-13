@@ -54,11 +54,11 @@ public class MaddiesloginPage {
 		this.password.sendKeys(password);
 	}
 
-	public MaddiesHomePage clickOnSubmitButton() {
+	public void clickOnSubmitButton() {
 		log.info("clicking on submit button...");
 		logExtentReport("clicking on submit button...");
 		submitLogin.click();
-		return new MaddiesHomePage(driver);
+		//return new MaddiesHomePage(driver);
 	}
 
 	public boolean verifySuccessLoginMsg() {
