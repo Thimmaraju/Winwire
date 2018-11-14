@@ -24,6 +24,5 @@ private final Logger log = LoggerHelper.getLogger(LoginTest.class);
 		boolean status = maddiesloginPage.verifySuccessLoginMsg();
 		
 		AssertionHelper.updateTestStatus(status);
-
 }
 }
