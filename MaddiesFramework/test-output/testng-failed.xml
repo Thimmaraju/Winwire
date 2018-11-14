@@ -3,16 +3,17 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest">
+      <class name="Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginWithDataDrivenApproach">
         <methods>
-          <include name="testLoginToApplication"/>
           <include name="beforeTest"/>
           <include name="beforeMethod"/>
+          <include name="beforeClass"/>
           <include name="beforeSuite"/>
+          <include name="loginTest"/>
           <include name="afterTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest -->
+      </class> <!-- Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginWithDataDrivenApproach -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

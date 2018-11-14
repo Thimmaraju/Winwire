@@ -1,21 +1,7 @@
-2018-11-14 12:11:354 INFO  TestBase:129 - Initialize Web driver: 24805171
-2018-11-14 12:11:359 INFO  WaitHelper:28 - WaitHelper object created..
-2018-11-14 12:11:360 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
-2018-11-14 12:11:374 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
-2018-11-14 12:11:379 INFO  WaitHelper:143 - page is loaded
-2018-11-14 12:11:547 INFO  TestBase:70 - **************testLoginToApplicationStarted***************
-2018-11-14 12:11:732 INFO  WaitHelper:28 - WaitHelper object created..
-2018-11-14 12:11:782 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (8d1fd35f233a16a53cd45720df2ac10a)] -> xpath: //*[@id="mvcforum-nav"]/ul/li[2]/a] for :200 seconds
-2018-11-14 12:11:832 INFO  WaitHelper:156 - element is visible now
-2018-11-14 12:11:832 INFO  TestBase:162 - capturing ui navigation screen...
-2018-11-14 12:11:833 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
-2018-11-14 12:11:331 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
-2018-11-14 12:11:342 INFO  LoginPage:55 - clicked on sign in link...
-2018-11-14 12:11:545 INFO  LoginPage:61 - entering email address....thimmaraju.g@winwire.com
-2018-11-14 12:11:775 INFO  LoginPage:67 - entering password....123456
-2018-11-14 12:11:896 INFO  LoginPage:73 - clicking on submit button...
-2018-11-14 12:11:812 INFO  VerificationHelper:24 - element is Displayed..Maddie’s Pet Forum
-2018-11-14 12:11:267 INFO  LoginPage:94 - clicked on logout link
-2018-11-14 12:11:312 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (8d1fd35f233a16a53cd45720df2ac10a)] -> xpath: //*[@id="mvcforum-nav"]/ul/li[2]/a] for :200 seconds
-2018-11-14 12:11:353 INFO  WaitHelper:156 - element is visible now
-2018-11-14 12:11:674 INFO  TestBase:88 - **************testLoginToApplicationFinished***************
+2018-11-14 16:11:414 INFO  TestBase:129 - Initialize Web driver: 2646165
+2018-11-14 16:11:423 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-14 16:11:423 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-14 16:11:437 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-14 16:11:451 INFO  WaitHelper:143 - page is loaded
+2018-11-14 16:11:966 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-14 16:11:07 INFO  TestBase:184 - excel location C:\Users\WinWire\git\repository\MaddiesFramework/src/main/resources/configfile/testData.xlsx

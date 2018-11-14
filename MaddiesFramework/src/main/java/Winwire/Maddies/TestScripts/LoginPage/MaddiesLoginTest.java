@@ -11,7 +11,7 @@ import Winwire.Maddies.TestBase.TestBase;
 
 public class MaddiesLoginTest extends TestBase {
 	
-private final Logger log = LoggerHelper.getLogger(LoginTest.class);
+private final Logger log = LoggerHelper.getLogger(MaddiesLoginTest.class);
 	
 	@Test(description="Login test with valid credentials")
 	public void testLoginToApplication(){
