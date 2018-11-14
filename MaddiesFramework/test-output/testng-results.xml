@@ -5,29 +5,29 @@
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_13_11_2018_06_11_24.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_13_11_2018_06_11_24.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_14_11_2018_12_39_32.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_14_11_2018_12_39_32.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_13_11_2018_06_12_48.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_13_11_2018_06_12_48.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_14_11_2018_12_39_53.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_14_11_2018_12_39_53.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97168" started-at="2018-11-13T12:41:13Z" finished-at="2018-11-13T12:42:50Z">
+  <suite name="Default suite" duration-ms="91889" started-at="2018-11-14T07:08:23Z" finished-at="2018-11-14T07:09:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="97168" started-at="2018-11-13T12:41:13Z" finished-at="2018-11-13T12:42:50Z">
+    <test name="Default test" duration-ms="91889" started-at="2018-11-14T07:08:23Z" finished-at="2018-11-14T07:09:54Z">
       <class name="Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeSuite" is-config="true" duration-ms="170" started-at="2018-11-13T18:11:13Z" finished-at="2018-11-13T18:11:13Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeSuite" is-config="true" duration-ms="158" started-at="2018-11-14T12:38:22Z" finished-at="2018-11-14T12:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeTest" is-config="true" duration-ms="4317" started-at="2018-11-13T18:11:13Z" finished-at="2018-11-13T18:11:17Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeTest" is-config="true" duration-ms="5507" started-at="2018-11-14T12:38:23Z" finished-at="2018-11-14T12:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeMethod" is-config="true" duration-ms="45" started-at="2018-11-13T18:11:17Z" finished-at="2018-11-13T18:11:17Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2018-11-14T12:38:28Z" finished-at="2018-11-14T12:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -38,17 +38,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testLoginToApplication()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="testLoginToApplication" duration-ms="90560" started-at="2018-11-13T18:11:17Z" description="Login test with valid credentials" finished-at="2018-11-13T18:12:48Z">
+        <test-method status="PASS" signature="testLoginToApplication()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="testLoginToApplication" duration-ms="84806" started-at="2018-11-14T12:38:28Z" description="Login test with valid credentials" finished-at="2018-11-14T12:39:53Z">
           <reporter-output>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_13_11_2018_06_11_24.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_13_11_2018_06_11_24.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_14_11_2018_12_39_32.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\blank_14_11_2018_12_39_32.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLoginToApplication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="afterMethod" is-config="true" duration-ms="1145" started-at="2018-11-13T18:12:48Z" finished-at="2018-11-13T18:12:49Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="afterMethod" is-config="true" duration-ms="686" started-at="2018-11-14T12:39:53Z" finished-at="2018-11-14T12:39:54Z">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_13_11_2018_06_12_48.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_13_11_2018_06_12_48.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_14_11_2018_12_39_53.png'><img src='C:\Users\WinWire\git\repository\MaddiesFramework\src\main\resources\screenShots\testLoginToApplication_14_11_2018_12_39_53.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="afterTest" is-config="true" duration-ms="1077" started-at="2018-11-13T18:12:49Z" finished-at="2018-11-13T18:12:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Winwire.Maddies.TestScripts.LoginPage.MaddiesLoginTest@1318ec4]" name="afterTest" is-config="true" duration-ms="861" started-at="2018-11-14T12:39:54Z" finished-at="2018-11-14T12:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
