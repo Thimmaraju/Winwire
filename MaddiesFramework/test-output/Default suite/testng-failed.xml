@@ -9,7 +9,7 @@
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="beforeSuite"/>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="1 2"/>
           <include name="afterTest"/>
           <include name="afterMethod"/>
         </methods>

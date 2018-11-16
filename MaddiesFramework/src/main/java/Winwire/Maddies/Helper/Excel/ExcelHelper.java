@@ -110,7 +110,8 @@ public class ExcelHelper {
 		}
 	}
 	
-	public static void main(String[] args) {
+}
+	/*public static void main(String[] args) {
 	 ExcelHelper	 excelHelper = new ExcelHelper();
 	 String excelLocation = ResourceHelper.getResourcePath("src/main/resources/configfile/testData.xlsx");
 	 Object[][] data = excelHelper.getExcelData(excelLocation, "loginData");
@@ -121,3 +122,4 @@ public class ExcelHelper {
 	 
 	}
 }
+*/
