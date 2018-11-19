@@ -21,7 +21,7 @@ public class MaddiesloginPage {
 
 	WaitHelper waitHelper;
 	
-	@FindBy(xpath="//*[@id=\"mvcforum-nav\"]/ul/li[1]/a")
+	@FindBy(xpath="//*[@id=\'mvcforum-nav\']/ul/li[1]/a")
 	WebElement register;
 	
 	@FindBy(xpath="//*[@id=\"mvcforum-nav\"]/ul/li[2]/a")

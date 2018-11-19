@@ -20,11 +20,12 @@ public class MaddiesRegistrationTest extends TestBase {
 	AgreetermsnConditionsPage agreetermsPage;
 
 	@Test
-	public void testRegistration(){
+	public void testRegistration() throws InterruptedException{
 		// go to application
 		getApplicationUrl(ObjectReader.reader.getUrl());
 		
 		maddiesloginPage = new MaddiesloginPage(driver);
+		Thread.sleep(4000);
 		maddiesloginPage.clickOnRegister();
 		
 				
