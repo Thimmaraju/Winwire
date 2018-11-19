@@ -21,6 +21,9 @@ public class MaddiesloginPage {
 
 	WaitHelper waitHelper;
 	
+	@FindBy(xpath="//*[@id=\"mvcforum-nav\"]/ul/li[1]/a")
+	WebElement register;
+	
 	@FindBy(xpath="//*[@id=\"mvcforum-nav\"]/ul/li[2]/a")
 	WebElement Login;
 	
@@ -57,6 +60,11 @@ public class MaddiesloginPage {
 		Login.click();
 	}
 	
+	public void clickOnRegister(){
+		log.info("clicked on Registerlink link...");
+		logExtentReport("clicked on Registerlink link...");
+		register.click();
+	}
 	public void enterEmailAddress(String emailAddress) {
 		log.info("entering email address...." + emailAddress);
 		logExtentReport("entering email address...." + emailAddress);

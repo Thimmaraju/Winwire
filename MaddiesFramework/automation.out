@@ -1,7 +1,24 @@
-2018-11-14 16:11:414 INFO  TestBase:129 - Initialize Web driver: 2646165
-2018-11-14 16:11:423 INFO  WaitHelper:28 - WaitHelper object created..
-2018-11-14 16:11:423 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
-2018-11-14 16:11:437 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
-2018-11-14 16:11:451 INFO  WaitHelper:143 - page is loaded
-2018-11-14 16:11:966 INFO  WaitHelper:28 - WaitHelper object created..
-2018-11-14 16:11:07 INFO  TestBase:184 - excel location C:\Users\WinWire\git\repository\MaddiesFramework/src/main/resources/configfile/testData.xlsx
+2018-11-19 12:11:422 INFO  TestBase:129 - Initialize Web driver: 24805171
+2018-11-19 12:11:426 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-19 12:11:426 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-11-19 12:11:441 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-11-19 12:11:450 INFO  WaitHelper:143 - page is loaded
+2018-11-19 12:11:606 INFO  TestBase:70 - **************testRegistrationStarted***************
+2018-11-19 12:11:543 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-19 12:11:568 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (373cb4211bd6390c746cd03425a86000)] -> xpath: //*[@id="mvcforum-nav"]/ul/li[2]/a] for :200 seconds
+2018-11-19 12:11:626 INFO  WaitHelper:156 - element is visible now
+2018-11-19 12:11:626 INFO  TestBase:162 - capturing ui navigation screen...
+2018-11-19 12:11:627 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-19 12:11:154 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-19 12:11:246 INFO  LoginPage:64 - clicked on Registerlink link...
+2018-11-19 12:11:868 INFO  WaitHelper:28 - WaitHelper object created..
+2018-11-19 12:11:905 INFO  WaitHelper:153 - waiting for :[[ChromeDriver: chrome on XP (373cb4211bd6390c746cd03425a86000)] -> xpath: //*[@id="btnSubmit"]] for :200 seconds
+2018-11-19 12:11:946 INFO  WaitHelper:156 - element is visible now
+2018-11-19 12:11:948 INFO  TestBase:162 - capturing ui navigation screen...
+2018-11-19 12:11:949 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-19 12:11:295 INFO  JavaScriptHelper:19 - JavaScriptHelper has been initialised
+2018-11-19 12:11:313 INFO  MaddiesRegistrationPage:51 - entering emailAddress..testregi@gmail.com
+2018-11-19 12:11:587 INFO  MaddiesRegistrationPage:57 - entering password..123456
+2018-11-19 12:11:709 INFO  MaddiesRegistrationPage:63 - entering password..[[ChromeDriver: chrome on XP (373cb4211bd6390c746cd03425a86000)] -> xpath: //*[@id="PersonalProfile_Password"]]
+2018-11-19 12:11:815 INFO  MaddiesRegistrationPage:69 - entering firstName..ScTestRegi
+2018-11-19 12:11:977 INFO  MaddiesRegistrationPage:75 - clicked on Submit Button..[[ChromeDriver: chrome on XP (373cb4211bd6390c746cd03425a86000)] -> xpath: //*[@id="btnSubmit"]]
