@@ -5,13 +5,15 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import Winwire.Maddies.Helper.Resource.ResourceHelper;
+
 public class ExtentManager {
 	
 	private static ExtentReports extent;
 	
 	public static ExtentReports getInstance(){
 		if(extent == null){
-			String location = Winwire.Maddies.Helper.Resource.ResourceHelper.getResourcePath("src/main/resources/reports/extent.html");
+			String location = ResourceHelper.getResourcePath("src/main/resources/reports/extent.html");
 			return createInstance(location);
 		}
 		else{

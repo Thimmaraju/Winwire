@@ -9,11 +9,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import Winwire.Maddies.Helper.Resource.ResourceHelper;
 
 
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
 public class ChromeBrowser {
 
 	public ChromeOptions getChromeOptions() {

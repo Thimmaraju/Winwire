@@ -1,7 +1,3 @@
-2018-11-19 21:11:192 INFO  TestBase:129 - Initialize Web driver: 205721196
-2018-11-19 21:11:197 INFO  WaitHelper:28 - WaitHelper object created..
-2018-11-19 21:11:197 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
-2018-11-19 21:11:204 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
-2018-11-19 21:11:207 INFO  WaitHelper:143 - page is loaded
-2018-11-19 21:11:669 INFO  TestBase:70 - **************testRegistrationStarted***************
-2018-11-19 21:11:232 INFO  TestBase:88 - **************testRegistrationFinished***************
+2018-11-25 15:11:988 INFO  ExcelHelper:100 - result updated..
+2018-11-25 15:11:179 INFO  ExcelHelper:100 - result updated..
+2018-11-25 15:11:276 INFO  ExcelHelper:100 - result updated..

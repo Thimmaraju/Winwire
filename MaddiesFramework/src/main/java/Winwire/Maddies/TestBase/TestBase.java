@@ -19,7 +19,6 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -79,8 +78,8 @@ public class TestBase {
 		}
 		else if(result.getStatus() == ITestResult.SUCCESS){
 			test.log(Status.PASS, result.getName()+" is pass");
-			String imagePath = captureScreen(result.getName(),driver);
-			test.addScreenCaptureFromPath(imagePath);
+			//String imagePath = captureScreen(result.getName(),driver);
+			//test.addScreenCaptureFromPath(imagePath);
 		}
 		else if(result.getStatus() == ITestResult.SKIP){
 			test.log(Status.SKIP, result.getThrowable());

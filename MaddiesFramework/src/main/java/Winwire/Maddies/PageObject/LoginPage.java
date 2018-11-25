@@ -61,6 +61,9 @@ public class LoginPage{
 		TestBase.logExtentReport("Login Page Object Created");
 	}
 	
+	/**
+	 * This will click on the sign in button
+	 */
 	public void clickOnSignInLink(){
 		log.info("clicked on sign in link...");
 		logExtentReport("clicked on sign in link...");

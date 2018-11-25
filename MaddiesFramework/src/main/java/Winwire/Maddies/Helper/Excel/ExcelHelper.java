@@ -110,16 +110,16 @@ public class ExcelHelper {
 		}
 	}
 	
-}
-	/*public static void main(String[] args) {
+
+	public static void main(String[] args) {
 	 ExcelHelper	 excelHelper = new ExcelHelper();
 	 String excelLocation = ResourceHelper.getResourcePath("src/main/resources/configfile/testData.xlsx");
 	 Object[][] data = excelHelper.getExcelData(excelLocation, "loginData");
-	 //System.out.println(data);
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Add to Cart", "PASS");
+	 System.out.println(data);
+	 excelHelper.updateResult(excelLocation, "TestScripts", "Login", "FAIL");
+	 excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "Pass");
+	 excelHelper.updateResult(excelLocation, "TestScripts", "Add to Cart", "FAIL");
 	 
 	}
 }
-*/
+

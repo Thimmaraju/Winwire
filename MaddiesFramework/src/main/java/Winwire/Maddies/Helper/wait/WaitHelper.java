@@ -155,5 +155,5 @@ public class WaitHelper {
 		wait.until(ExpectedConditions.visibilityOf(element));
 		log.info("element is visible now");
 	}
-
+	
 }
