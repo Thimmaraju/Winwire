@@ -12,6 +12,7 @@ public class A extends TestBase{
 	@Test
 	public void testLoginA(){
 		Assert.assertTrue(true);
+		Assert.assertTrue(true);
 	}
 
 }
