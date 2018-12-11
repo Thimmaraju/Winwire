@@ -17,16 +17,16 @@ import Winwire.Maddies.TestBase.TestBase;
 public class MaddiesloginPage {
 
 	private WebDriver driver;
-	private final Logger log = LoggerHelper.getLogger(LoginPage.class);
+	private final Logger log = LoggerHelper.getLogger(MaddiesloginPage.class);
 
 	WaitHelper waitHelper;
-	
-	@FindBy(xpath="//*[@id=\'mvcforum-nav\']/ul/li[1]/a")
+
+	@FindBy(xpath = "//*[@id=\'mvcforum-nav\']/ul/li[1]/a")
 	WebElement register;
-	
-	@FindBy(xpath="//*[@id=\"mvcforum-nav\"]/ul/li[2]/a")
+
+	@FindBy(xpath = "//*[@id=\"mvcforum-nav\"]/ul/li[2]/a")
 	WebElement Login;
-	
+
 	@FindBy(xpath = "//*[@id=\"UserName\"]")
 	WebElement emailAddress;
 
@@ -39,12 +39,12 @@ public class MaddiesloginPage {
 	@FindBy(xpath = "//*[@id=\"main\"]/div/div[2]/div[2]/div[1]/h2")
 	WebElement successMsgObject;
 
-	@FindBy(xpath="//*[@id=\"align-padding\"]/div/img")
+	@FindBy(xpath = "//*[@id=\"align-padding\"]/div/img")
 	WebElement Avatarimg;
-	
-	@FindBy(xpath="//*[@id=\"dropdown-menu\"]/li[6]/a")
+
+	@FindBy(xpath = "//*[@id=\"dropdown-menu\"]/li[6]/a")
 	WebElement logout;
-	
+
 	public MaddiesloginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -54,17 +54,18 @@ public class MaddiesloginPage {
 		TestBase.logExtentReport(" Maddies Login Page Object Created");
 	}
 
-	public void clickOnSignInLink(){
+	public void clickOnSignInLink() {
 		log.info("clicked on sign in link...");
 		logExtentReport("clicked on sign in link...");
 		Login.click();
 	}
-	
-	public void clickOnRegister(){
+
+	public void clickOnRegister() {
 		log.info("clicked on Registerlink link...");
 		logExtentReport("clicked on Registerlink link...");
 		register.click();
 	}
+
 	public void enterEmailAddress(String emailAddress) {
 		log.info("entering email address...." + emailAddress);
 		logExtentReport("entering email address...." + emailAddress);
@@ -93,15 +94,16 @@ public class MaddiesloginPage {
 		enterEmailAddress(emailAddress);
 		enterPassword(password);
 		clickOnSubmitButton();
-		//logout();
+		// logout();
 	}
 
-	public void logout(){
+	public void logout() {
 		Avatarimg.click();
 		logout.click();
 		log.info("clicked on logout link");
 		waitHelper.waitForElement(Login, ObjectReader.reader.getExplicitWait());
 	}
+
 	public void logExtentReport(String s1) {
 		TestBase.test.log(Status.INFO, s1);
 	}
