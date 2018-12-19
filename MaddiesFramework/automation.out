@@ -1,3 +1,17 @@
-2018-11-25 15:11:988 INFO  ExcelHelper:100 - result updated..
-2018-11-25 15:11:179 INFO  ExcelHelper:100 - result updated..
-2018-11-25 15:11:276 INFO  ExcelHelper:100 - result updated..
+2018-12-06 16:12:836 INFO  TestBase:128 - Initialize Web driver: 13753398
+2018-12-06 16:12:841 INFO  WaitHelper:28 - WaitHelper object created..
+2018-12-06 16:12:842 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-12-06 16:12:867 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-12-06 16:12:871 INFO  WaitHelper:143 - page is loaded
+2018-12-06 16:12:88 INFO  TestBase:69 - **************testLoginToApplicationStarted***************
+2018-12-06 16:12:897 INFO  WaitHelper:28 - WaitHelper object created..
+2018-12-06 16:12:209 INFO  WaitHelper:153 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a' for :200 seconds
+2018-12-06 16:12:946 INFO  TestBase:87 - **************testLoginToApplicationFinished***************
+2018-12-06 16:12:924 INFO  TestBase:128 - Initialize Web driver: 20701583
+2018-12-06 16:12:924 INFO  WaitHelper:28 - WaitHelper object created..
+2018-12-06 16:12:925 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2018-12-06 16:12:930 INFO  WaitHelper:141 - waiting for page to load for : SECONDS seconds
+2018-12-06 16:12:933 INFO  WaitHelper:143 - page is loaded
+2018-12-06 16:12:50 INFO  TestBase:69 - **************testRegistrationStarted***************
+2018-12-06 16:12:632 INFO  WaitHelper:28 - WaitHelper object created..
+2018-12-06 17:12:694 INFO  WaitHelper:153 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a' for :200 seconds
