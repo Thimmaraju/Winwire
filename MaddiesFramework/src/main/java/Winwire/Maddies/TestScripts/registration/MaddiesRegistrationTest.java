@@ -7,10 +7,8 @@ import Winwire.Maddies.Helper.Assertion.AssertionHelper;
 import Winwire.Maddies.Helper.Logger.LoggerHelper;
 import Winwire.Maddies.Helper.browserConf.Configu.ObjectReader;
 import Winwire.Maddies.PageObject.AgreetermsnConditionsPage;
-import Winwire.Maddies.PageObject.LoginPage;
 import Winwire.Maddies.PageObject.MaddiesRegistrationPage;
 import Winwire.Maddies.PageObject.MaddiesloginPage;
-import Winwire.Maddies.PageObject.MyAccountPage;
 import Winwire.Maddies.TestBase.TestBase;
 
 public class MaddiesRegistrationTest extends TestBase {
@@ -37,9 +35,6 @@ public class MaddiesRegistrationTest extends TestBase {
 		maddiesregister.setScreenname("ScTestRegi");
 		maddiesregister.clickOnSubmit();
 				
-		//myAccountPage = new MyAccountPage(driver);
-		//boolean status = myAccountPage.isYourAccountPageMessage();
 		
-		//AssertionHelper.updateTestStatus(status);
 	}
 }
