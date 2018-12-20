@@ -63,6 +63,13 @@ public class WaitHelper {
 	 * @param timeOutInSeconds
 	 * @param pollingEveryInMiliSec
 	 */
+	public void WaitForElementVisibleWithPollingTime2(WebElement element, int timeOutInSeconds,
+			int pollingEveryInMiliSec) {
+		log.info("waiting for :" + element.toString() + " for :" + timeOutInSeconds + " seconds");
+		WebDriverWait wait = getWait(timeOutInSeconds, pollingEveryInMiliSec);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		log.info("element is visible now");
+	}
 	public void WaitForElementVisibleWithPollingTime(WebElement element, int timeOutInSeconds,
 			int pollingEveryInMiliSec) {
 		log.info("waiting for :" + element.toString() + " for :" + timeOutInSeconds + " seconds");
